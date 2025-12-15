@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 st.title("🌐 Gemini Translator: IT & Y Khoa")
-st.caption("Sử dụng model Gemini 1.5 Flash - Tối ưu cho thuật ngữ chuyên sâu")
+st.caption("Sử dụng model Gemini 2.5 Flash - Tối ưu cho thuật ngữ chuyên sâu")
 
 # 2. Sidebar: Nhập Key & Cấu hình
 with st.sidebar:
@@ -83,3 +83,4 @@ with col2:
 # Footer
 st.markdown("---")
 st.markdown("*Dự án Demo bởi Kỹ sư AI tương lai.*")
+
