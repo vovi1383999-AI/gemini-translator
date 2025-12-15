@@ -52,7 +52,7 @@ with col2:
                 genai.configure(api_key=api_key)
                 
                 # Chọn model nhẹ và nhanh nhất
-                model = genai.GenerativeModel('gemini-1.5-flash')
+                model = genai.GenerativeModel('gemini-2.5-flash')
                 
                 # Kỹ thuật Prompt Engineering: Gán vai trò chuyên gia
                 prompt = f"""
@@ -83,4 +83,5 @@ with col2:
 # Footer
 st.markdown("---")
 st.markdown("*Dự án Demo bởi Kỹ sư AI tương lai.*")
+
 
